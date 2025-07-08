@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Academic Credits | Anannya Dharanikumar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fdfdfd;
+      color: #333;
+    }
+    nav {
+      background: #dceef2;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #0077b6;
+      font-weight: 600;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      animation: fadeIn 1.5s ease-in;
+    }
+    h2 {
+      text-align: center;
+      color: #444;
+      margin-bottom: 2rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2rem;
+    }
+    th, td {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #e0f7fa;
+    }
+    .summary {
+      font-size: 1.1rem;
+      background: #f0f8ff;
+      padding: 1rem;
+      border-left: 4px solid #7dbbc3;
+      border-radius: 6px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div><strong>Anannya</strong></div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="courses.html">Courses</a>
+      <a href="skills.html">Skills</a>
+      <a href="credits.html">Credits</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2>Academic Credits</h2>
+
+    <h3>📘 Semester 1 – Dec 2024</h3>
+    <table>
+      <tr><th>Course Title</th><th>Credits</th><th>Grade</th></tr>
+      <tr><td>Communicative English</td><td>3</td><td>A+</td></tr>
+      <tr><td>Calculus and Linear Algebra</td><td>4</td><td>O</td></tr>
+      <tr><td>Introduction to Computational Biology</td><td>2</td><td>O</td></tr>
+      <tr><td>Programming for Problem Solving</td><td>4</td><td>A+</td></tr>
+      <tr><td>Philosophy of Engineering</td><td>2</td><td>O</td></tr>
+      <tr><td>Semiconductor Physics and Computational Methods</td><td>5</td><td>A+</td></tr>
+      <tr><td>Physical and Mental Health Using Yoga</td><td>0</td><td>O</td></tr>
+      <tr><td>Professional Skills and Practices</td><td>0</td><td>O</td></tr>
+      <tr><td>Basic Civil and Mechanical Workshop</td><td>2</td><td>O</td></tr>
+    </table>
+
+    <div class="summary">
+      <strong>Semester 1 CGPA:</strong> 9.45<br>
+      <strong>Credits Earned:</strong> 22
+    </div>
+
+    <h3>📗 Semester 2 – Apr 2025</h3>
+    <div class="summary">
+      <strong>Semester 2 CGPA:</strong> 9.9<br>
+      <strong>Cumulative CGPA:</strong> 9.7
+    </div>
+  </div>
+
+</body>
+</html>
